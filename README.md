@@ -52,7 +52,13 @@ A Python implementation of Battleship with client-server architecture, supportin
 - **Port conflicts**: Change PORT in GameIni.py
 - **PyQt5 errors**: Try `pip install --force-reinstall PyQt5`
 - **Game freeze**: Check BattleShipGameServer.log
-
+⚠️ Disclaimer
+This implementation is functional but not perfect. Several areas could be improved:
+Error handling for network disconnections
+Input validation for client commands
+Game state recovery options
+Additional unit tests
+The code serves as a working foundation that can be enhanced for production use.
 ## Authors
 - Israel Prusente 
 - Joseph Duda 
